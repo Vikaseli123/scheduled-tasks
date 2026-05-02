@@ -13,12 +13,12 @@ import smtplib
 import os
 
 # import os and use it to get the Github repository secrets
-MY_EMAIL = "vicky.sun.lord.2007@gmail.com"
-MY_PASSWORD = "wspx wlwp gtrl nyvt"
+MYEMAIL = "vicky.sun.lord.2007@gmail.com"
+MYPASSWORD = "wspx wlwp gtrl nyvt"
 
 
-EMAIL = os.environ.get("MY_EMAIL")
-PASSWORD = os.environ.get("MY_PASSWORD")
+EMAIL = os.environ.get("MYEMAIL")
+PASSWORD = os.environ.get("MYPASSWORD")
 
 today = datetime.now()
 today_tuple = (today.month, today.day)
